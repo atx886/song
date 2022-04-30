@@ -116,7 +116,7 @@ def cs():
     zong = 0
     while a > 0:
         if a == 129:
-            continue
+            a += 1
         d = webdriver.Chrome(chrome_options=chrome_options, executable_path=chromedriver)
         # d = webdriver.Chrome()
         # d = webdriver.Firefox()
